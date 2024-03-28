@@ -1,0 +1,45 @@
+###########What is Git?
+
+Git is a popular distributed version control system that helps developers collaborate on code and manage code changes. Git allows developers to work on their local copies of a repository and then synchronize those changes with a remote repository. A local repository is simply a directory on your device or local machine that stores all your project. While a remote repository is a version of your project that is hosted on the internet or a network somewhere. Two of the most common Git commands used for synchronizing changes are 'Git Pull' and 'Git Push'. While both commands are used to update a local repository with changes made to a remote repository, they have different functionalities and these differences highlight their differences.
+
+##########Git Pull
+
+'Git Pull' is used to update a local repository with the changes made to a remote repository. In other words, it allows you to download the latest changes made by other developers in the team and merge them with your local copy. The 'Git Pull' fetches the changes from the remote repository and merges them with your local branch.
+
+An example of how to use 'Git Pull' is shown below:
+
+
+##############$ git pull origin master
+In essence, 'Git Pull' fetches the latest update from the remote repository and adds it to the local repository.
+
+##############Git Push
+
+'Git Push' is used to upload the changes made to your local repository into a remote repository. In other words, it allows you to share changes made in your local repository with other developers by uploading the changes to a central repository. The 'Git Push' command sends your changes to the remote repository.
+
+An example of how to use 'Git Push' is shown below:
+
+########### git push origin master
+In essence, 'Git Push' sends your latest commit in your local repository to your remote repository.
+
+
+############# git fetch
+
+
+The git fetch command only copies changes into your local Git repo
+
+git fetch  origin
+git fetch --multipll
+git fetch --all
+
+############## git merge
+
+ Git merge will help to combine the changes from two or more branches into a single branch. Developers will work on different branches to improve code or to develop the code after completion we can merge them into a single version of the code.
+
+ git merge <name of the branch to be merged -->>>>>>> command
+
+
+####### Git rebase
+
+Rebasing is a common way to integrate upstream changes into your local repository
+
+git rebase master --->>> command

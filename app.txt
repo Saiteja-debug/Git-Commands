@@ -1,0 +1,26 @@
+  ######################################################################
+				GIT COMMANDS	  
+  ######################################################################
+			TO CREATE THE GIT REPOSITORY
+		
+1. TO CREATE THE FOLDER & TO OPEN GIT BASH
+2. GIT INIT ->>> THIS COMMAND INITIALISE THE GIT CONFIG FILES
+3. GIT CONFIG -- LIST ->> TO CHECK USERS ADD OR NOT
+4. GIT CONFIG --GLOBAL USER.NAME "SAITEJA"
+5. GIT CONFIG --GLOBAL USER.EMAIL saiteja@gmail.com
+6. git status ->>> this means commits available or not
+7. git remote -v
+8. git remote add ohttps://github.com/Saiteja-debug/Git-Commands.git
+9. Touch sai ->>> to create the file
+10. git status
+11. git add .
+12. git commit -m " commit message"
+13. git push origin master ->> branch name
+14. git status
+15. git log ->>> logs check
+16. rm -rf sai.txt .>> to delete the fie
+17. git status
+18. git add .
+19. git commit -m " delete file "
+20. git push origin master 
+21. git clone -b <branch name> <repourl> ->>>>> to download the code central to local machine

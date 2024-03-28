@@ -27,9 +27,15 @@
 22. git branch < branch name>
 23. git checkout -b <branch name>
 24. git branch -a
-25. git switch dev
+25. git switch dev  -->> branch switch 
 26. git branch --delete "dev"
 27. git switch dev
-28. git merge master
-29. git rebase master
-30.  
+28. git merge master  -->> it wont arrange any commit id  
+29. git rebase master -->> it  arrange commit id 
+30. git cheery-pick < commit id > -->>> if u want to specific commit id
+31. git clean -f  -->. it will remove all untracked  files
+32. git reset < flr name> -->> to untrack the tacked files  ( it revert back to untracked area )
+33. git revert < commit id > -->> it will revert the changes committed in that particular commit id ffrom local repo
+34. git squash -->> combine multile commit id into single commit id
+35. git 
+

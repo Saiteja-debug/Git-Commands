@@ -24,3 +24,6 @@
 19. git commit -m " delete file "
 20. git push origin master 
 21. git clone -b <branch name> <repourl> ->>>>> to download the code central to local machine
+22. git branch < branch name>
+23.git checkout -b <branch name>
+24.

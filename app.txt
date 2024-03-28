@@ -25,5 +25,11 @@
 20. git push origin master 
 21. git clone -b <branch name> <repourl> ->>>>> to download the code central to local machine
 22. git branch < branch name>
-23.git checkout -b <branch name>
-24.
+23. git checkout -b <branch name>
+24. git branch -a
+25. git switch dev
+26. git branch --delete "dev"
+27. git switch dev
+28. git merge master
+29. git rebase master
+30.  
